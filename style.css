@@ -1,5 +1,6 @@
-.center{
-    text-align: center;
+body{
+    color: orange;
+    background-color: black;
 }
 .img{
     display: block;
@@ -9,6 +10,12 @@
     height: auto;
     border: 1px solid black;
 }
-h3{
-    color:red;
+h3, .name{
+    color: orangered;
+    text-align: center;
+}
+.description, .ingredients, .steps{
+    width: 50%;
+    text-align: justify;
+    margin: 0 auto;
 }
